@@ -1,0 +1,174 @@
+/* The navigation bar */
+nav
+{
+    height: 88px;
+    width: 100%;
+    background-color: #282828;
+    position:fixed;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-right: 10px;
+    z-index: 1000;
+    min-width: 900px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*"Lucida Sans Unicode", "Lucida Grande"*/
+}
+ul.topnav-left {
+  overflow: hidden;
+  list-style-type: none;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 400px;
+  max-width: 400px; /* Full width */
+  min-width: 400px;
+  margin-left: -10px;
+  margin-top: 0px;
+  padding: 0;
+  z-index: -1;
+}
+
+/* Links inside the navbar */
+ul.topnav-left a {
+  float: left;
+  display: block;
+  color: #b2ad6b;
+  text-align: center;
+  padding: 30px 24px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Change background on mouse-over */
+ul.topnav-left a:hover {
+  background: #393939;
+}
+
+ul.topnav-right {
+  overflow: hidden;
+  float: right;
+  list-style-type: none;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 600px;
+  max-width: 600px; /* Full width */
+  min-width: 400px;
+  margin-top: -98px;
+  z-index: -3;
+  padding: 0;
+}
+
+/* Links inside the navbar */
+ul.topnav-right a {
+  float: right;
+  display: block;
+  color: #b2ad6b;
+  text-align: center;
+  background-color: #282828;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Change background on mouse-over */
+ul.topnav-right a:hover {
+  background: #393939;
+}
+
+div.splash
+{
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+td.descProj
+{
+  color: #282828;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 30%;
+
+}
+
+
+td.descSkill
+{
+  color: #282828;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 100%;
+
+}
+
+td.heads
+{
+  color: #282828;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+h1.section
+{
+  color: #dce3cf;
+  font-size: 100px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  display: inline-block;
+}
+
+span#portfolio
+{
+  margin-top: -88px; 
+  margin-bottom: 0px; 
+  padding-top: 88px; 
+}
+
+span#skills
+{
+  margin-top: -88px; 
+  margin-bottom: 0px; 
+  padding-top: 88px; 
+}
+
+span#projects
+{
+  margin-top: -88px; 
+  margin-bottom: 0px; 
+  padding-top: 88px; 
+}
+
+.portHeader
+{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#copyright
+{
+  font-size: 11px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: italic;
+}
+
+.portText
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+/* Main content */
+main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body{
+  background-color: #e9f4ea;
+  min-width: 1366px;
+  overflow: scroll;
+
+}
+
