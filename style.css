@@ -11,16 +11,17 @@ nav
     z-index: 1000;
     min-width: 900px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 24px;
     /*"Lucida Sans Unicode", "Lucida Grande"*/
 }
 ul.topnav-left {
   overflow: hidden;
   list-style-type: none;
   position: relative; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 400px;
-  max-width: 400px; /* Full width */
-  min-width: 400px;
+  
+  width: 600px;
+  max-width: 600px; /* Full width */
+  min-width: 600px;
   margin-left: -10px;
   margin-top: 0px;
   padding: 0;
@@ -30,6 +31,7 @@ ul.topnav-left {
 /* Links inside the navbar */
 ul.topnav-left a {
   float: left;
+  height: 28px;
   display: block;
   color: #b2ad6b;
   text-align: center;
@@ -50,10 +52,10 @@ ul.topnav-right {
   list-style-type: none;
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 600px;
-  max-width: 600px; /* Full width */
-  min-width: 400px;
-  margin-top: -98px;
+  width: 500px;
+  max-width: 500px; /* Full width */
+  min-width: 500px;
+  margin-top: -110px;
   z-index: -3;
   padding: 0;
 }
@@ -63,9 +65,10 @@ ul.topnav-right a {
   float: right;
   display: block;
   color: #b2ad6b;
+  height: 66px;
   text-align: center;
   background-color: #282828;
-  padding: 12px 24px;
+  padding: 10px 24px;
   text-decoration: none;
   margin-left: auto;
   margin-right: auto;
@@ -166,7 +169,7 @@ main {
 }
 
 body{
-  background-color: #e9f4ea;
+  background-color: #f7f7f2;
   min-width: 1366px;
   overflow: scroll;
 
